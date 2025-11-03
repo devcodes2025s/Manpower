@@ -290,6 +290,32 @@ ul {
     color: var(--text-gray);
 }
 
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    max-width: 600px;
+    margin: 4rem auto 0;
+    padding-top: 3rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.hero-stats .stat-item {
+    text-align: center;
+}
+
+.hero-stats .stat-item h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.hero-stats .stat-item p {
+    font-size: 0.95rem;
+    color: var(--text-gray);
+}
+
 /* ===================================
    Buttons
    =================================== */
